@@ -9,25 +9,29 @@ const images = [one, two, tree];
 
 const Gallery = () => {
 
-    const [currentIndex, setCurrentIndex] = useState(0);
+        /** add effects to transition and add quotes
+         * add restringing sizes 
+         * **/
+        
 
+    const [currentIndex, setCurrentIndex] = useState(0);
     useEffect(() => {
         const intervalId = setInterval(() => {
-            if(currentIndex === images.length - 1) {
+            if(currentIndex === (images.length - 1)) {
                 setCurrentIndex(0);
             } 
             else {
                  setCurrentIndex(currentIndex + 1);
             }
-        }, 2000)
         
+        }, 5000)
         return () => clearInterval(intervalId);
-    }, [])
+    }, [currentIndex])
 
 
     return (
         <div>
-            <div>
+            <div className="">
                 <img className="mx-auto" src={images[currentIndex]} />
             </div>
         </div>

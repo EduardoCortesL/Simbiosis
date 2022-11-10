@@ -5,14 +5,14 @@ import NavBar from '../components/navbar'
 
 const Home = () => {
   return (
-    <div>
+    <>
       <top>
         <NavBar />
       </top>
-      <body>
+      <div className='pt-44'>
         < Gallery />
-      </body>
-    </div>
+      </div>
+    </>
   )
 }
 
