@@ -1,14 +1,17 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Gallery from '../components/imageGallery'
 import NavBar from '../components/navbar'
 
 const Home = () => {
   return (
     <div>
-        <NavBar/>
-        <div className='max-h-full bg-white'>
-
-        </div>
+      <top>
+        <NavBar />
+      </top>
+      <body>
+        < Gallery />
+      </body>
     </div>
   )
 }
