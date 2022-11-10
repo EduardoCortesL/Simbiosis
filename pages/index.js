@@ -9,7 +9,7 @@ const Home = () => {
       <top>
         <NavBar />
       </top>
-      <div className='pt-44'>
+      <div className='flex justify-center items-center pt-8'>
         < Gallery />
       </div>
     </>
