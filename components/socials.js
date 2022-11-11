@@ -5,9 +5,9 @@ const Socials = () => {
 return (
     <div className='text-simbiosis-gray text-lg'>
         <div className='flex items-center gap-5'>
-             <a href=""> <AiOutlineMail/></a> 
-             <a href=""><AiOutlineInstagram/></a> 
-             <a href=""><AiOutlineCalendar/></a> 
+             <a href="/home"> <AiOutlineMail/></a> 
+             <a href="/home"><AiOutlineInstagram/></a> 
+             <a href="/home"><AiOutlineCalendar/></a> 
         </div>
     </div>
 )
