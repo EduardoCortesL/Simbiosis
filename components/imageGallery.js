@@ -67,7 +67,7 @@ const Gallery = () => {
 
     return (
         <div className=""> 
-                <a href="/">
+                <a href="">
                     <img className=" z-0 h-[619px] max-[400px]:h-[219px] object-cover" src={images[currentIndex]} />
                     <div className="h-max-36 text-justify-left pl-12 relative -top-8 opacity-0 hover:opacity-100 z-10 text-lg text-white">{descriptions[currentIndex]}</div>
                 </a>
