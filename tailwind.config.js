@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 module.exports = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx}",
@@ -9,6 +11,9 @@ module.exports = {
     extend: {
       colors: {
         'simbiosis-gray': "#999"
+      },
+      fontFamily : {
+        "Roboto" : ["Roboto", ...defaultTheme.fontFamily.sans],
       }
     },
   },

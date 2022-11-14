@@ -18,59 +18,62 @@ const Gallery = () => {
      * add restringing sizes 
      * **/
 
-        const [currentIndex, setCurrentIndex] = useState(0);
-    
-        useEffect(() => {
-            const intervalId = setInterval(() => {
-                if (currentIndex === images.length - 1) {
-                    setCurrentIndex(0);
-                }
-                else {
-                    setCurrentIndex(currentIndex + 1);
-                }
-    
-            }, 5000)
-            return () => clearInterval(intervalId);
-        }, [currentIndex])
-    
+    const [currentIndex, setCurrentIndex] = useState(0);
 
-/*
-    const [image, setImage] = useState(one);
-    const [imageIndex, setImageIndex] = useState(0);
-    let i = 0;
-    const maxImgArray = images.length - 1;
     useEffect(() => {
-        let interval = null;
-        if (i !== maxImgArray) {
-            interval = setInterval(() => {
-                let image = images[imageIndex];
-                const attr = document.getElementById("moving-image");
-                attr.src = image;
-                // update the img index to state
-                setImageIndex((imageIndex) =>
-                    imageIndex === maxImgArray ? 0 : imageIndex + 1
-                );
-                // update the src in state.
-                setImage(attr.src);
-            }, 5000);
-        }
-        // When our code runs and reruns for every render, useEffect also cleans up after itself using the cleanup function.
-        // Here we clear the interval to remove the effects that could happen with state change while interval.
-        return () => clearInterval(interval);
-    }, [image, imageIndex]);
-    */
+        const intervalId = setInterval(() => {
+            if (currentIndex === images.length - 1) {
+                setCurrentIndex(0);
+
+            }
+            else {
+                setCurrentIndex(currentIndex + 1);
+            }
+
+        }, 5000)
+        return () => clearInterval(intervalId);
+
+    }, [currentIndex])
+
+
+    /*
+        const [image, setImage] = useState(one);
+        const [imageIndex, setImageIndex] = useState(0);
+        let i = 0;
+        const maxImgArray = images.length - 1;
+        useEffect(() => {
+            let interval = null;
+            if (i !== maxImgArray) {
+                interval = setInterval(() => {
+                    let image = images[imageIndex];
+                    const attr = document.getElementById("moving-image");
+                    attr.src = image;
+                    // update the img index to state
+                    setImageIndex((imageIndex) =>
+                        imageIndex === maxImgArray ? 0 : imageIndex + 1
+                    );
+                    // update the src in state.
+                    setImage(attr.src);
+                }, 5000);
+            }
+            // When our code runs and reruns for every render, useEffect also cleans up after itself using the cleanup function.
+            // Here we clear the interval to remove the effects that could happen with state change while interval.
+            return () => clearInterval(interval);
+        }, [image, imageIndex]);
+        */
 
     useEffect(() => {
         AOS.init({ duration: 1000 });
+
     }, [])
 
 
     return (
-        <div className=""> 
-                <a href="">
-                    <img className=" z-0 h-[619px] max-[400px]:h-[219px] object-cover" src={images[currentIndex]} />
-                    <div className="h-max-36 text-justify-left pl-12 relative -top-8 opacity-0 hover:opacity-100 z-10 text-lg text-white">{descriptions[currentIndex]}</div>
-                </a>
+        <div className="" data-aos="fade-right">
+            <a href="">
+                <img className=" z-0 h-[619px] max-[400px]:h-[219px] object-cover" src={images[currentIndex]} />
+                <div className="h-max-36 text-justify-left pl-12 relative -top-8 opacity-0 hover:opacity-100 z-10 text-lg text-white">{descriptions[currentIndex]}</div>
+            </a>
         </div>
     )
 
