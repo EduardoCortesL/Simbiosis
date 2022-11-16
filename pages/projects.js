@@ -1,7 +1,6 @@
 import { useState, useEffect, use } from "react";
 
-import AOS, { refresh } from 'aos';
-import 'aos/dist/aos.css';
+
 import NavBar from "../components/navbar";
 
 let one = "https://firebasestorage.googleapis.com/v0/b/bito-b4105.appspot.com/o/Simbiosis%2Filtun-huseynli-rfklsTwIYBM-unsplash.jpg?alt=media&token=25fe2d93-ca8b-4478-ac8e-7606cce81194";
@@ -36,19 +35,12 @@ const Projects = () => {
 
     }, [currentIndex])
 
-
-    useEffect(() => {
-        AOS.init({ duration: 1000 });
-
-    }, [])
-
-
     return (
         <div>
             <div>
                 <NavBar />
             </div>
-            <div className="" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300">
+            <div className="">
                 <a href="">
                     <img className=" z-0 h-[619px] max-[500px]:h-[219px] object-cover" src={images[currentIndex]} />
                     <div className="h-max-36 font-roboto text-justify-left pl-12 relative -top-8 opacity-0 hover:opacity-100 z-10 text-lg text-white">{descriptions[currentIndex]}</div>

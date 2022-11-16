@@ -5,11 +5,11 @@ const About = () => {
     return(
     <div className="text-simbiosis-gray text-xl font-Roboto">
         <NavBar />
-        <div className="cols-2">
-            <div className="mx-auto px-12 flex items-center justify-around ">
+        <div className="grid-cols-2 flex items-center">
+            <div className="mx-auto px-12">
             About us
             </div>
-            <div>
+            <div className="mx-auto">
                 Something more
             </div>
         </div>
