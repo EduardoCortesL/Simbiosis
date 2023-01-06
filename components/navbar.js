@@ -10,10 +10,20 @@ const NavBar = () => {
         <div className="text-simbiosis-gray text-xs font-Roboto" >
             <div className="h-36 mx-auto px-12 flex items-center justify-around ">
                 <Link className="relative hover:text-black transition-colors cursor-pointer" href="/">
-                    <img className="h-5" src={"https://firebasestorage.googleapis.com/v0/b/bito-b4105.appspot.com/o/Simbiosis%2FLogo-removebg-preview.png?alt=media&token=d3294d5c-571f-4bef-a907-2ac6fd987d31"}></img>
+                    <img className="h-24" src={"https://drive.google.com/uc?export=view&id=1tuupmtxsqeWK-IgVIBHJYYlXKeN0vTgy"}></img>
                 </Link>
-                    <div className="flex items-center gap-5 ">
-                        <div className="md:hidden group flex inline-block relative">
+                <div className="flex items-center gap-5 ">
+                       
+                    </div>
+            </div>
+        </div>
+    )
+}
+
+export default NavBar;
+
+/*
+                      <div className="md:hidden group flex inline-block relative">
                             <button className="inline-flex items-center hover:text-black">
                                 <span className="">< AiOutlineMenu/></span>
                             </button>
@@ -32,10 +42,4 @@ const NavBar = () => {
                         <Link className="hidden md:flex hover:text-black transition-colors" href="/about">ABOUT</Link>
                         <Link className="hidden md:flex hover:text-black transition-colors" href="/projects">PROJECTS</Link>
                         <Link className="hidden md:flex hover:text-black transition-colors" href="/contact">CONTACT</Link>
-                    </div>
-            </div>
-        </div>
-    )
-}
-
-export default NavBar;
+ */

@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div>
         <NavBar />
-      <div className='flex justify-center items-center pt-8'>
+      <div className='flex justify-center items-center '>
         < Gallery />
       </div>
       <div className='flex justify-center items-center pt-8'>
