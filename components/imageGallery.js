@@ -37,7 +37,7 @@ const Gallery = () => {
     return (
         <div className="" >
             <a href="">
-                <img className=" z-0 h-[619px] max-md:h-[219px] object-cover" src={images[currentIndex]} />
+                <img className=" z-5 h-[700px] max-md:h-[300px] object-cover" src={images[currentIndex]} />
             </a>
         </div>
     )
