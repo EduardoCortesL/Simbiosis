@@ -5,16 +5,14 @@ import Socials from '../components/socials';
 const Home = () => {
   return (
     <div className=''>
-        <NavBar />
-        <div className='flex h-screen'>
-      <div className='flex justify-center items-center mx-auto my-auto  md:-mt-20'>
-        < Gallery />
+      <NavBar />
+        <div className='flex justify-center items-center  mt-44  md:-mt-20'>
+          < Gallery />
+        </div>
+        <div className='fixed inset-x-0 bottom-8'>
+          < Socials />
+        </div>
       </div>
-      </div>
-      <div className='fixed inset-x-0 bottom-8'>
-        < Socials />     
-      </div>
-    </div>
   )
 }
 
