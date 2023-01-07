@@ -6,10 +6,10 @@ const Home = () => {
   return (
     <div className=''>
       <NavBar />
-        <div className='flex justify-center items-center  mt-44  md:-mt-20'>
+        <div className='flex justify-center items-center  mt-32  md:-mt-32'>
           < Gallery />
         </div>
-        <div className='fixed inset-x-0 bottom-8'>
+        <div className=''>
           < Socials />
         </div>
       </div>
