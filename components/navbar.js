@@ -7,8 +7,8 @@ const NavBar = () => {
 
 
     return (
-        <div className="hidden md:block" >
-            <div className="h-36 mx-auto px-12 flex items-center justify-around ">
+        <div className="" >
+            <div className=" mx-auto px-12 flex items-center justify-around ">
                 <Link className="relative hover:text-black transition-colors cursor-pointer" href="/">
                     <img className="h-24" src={"https://drive.google.com/uc?export=view&id=1tuupmtxsqeWK-IgVIBHJYYlXKeN0vTgy"}></img>
                 </Link>

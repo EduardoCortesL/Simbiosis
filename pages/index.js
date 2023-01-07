@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className=''>
       <NavBar />
-        <div className='flex justify-center items-center  mt-32  md:-mt-32'>
+        <div className='flex justify-center items-center  mt-12  md:-mt-24'>
           < Gallery />
         </div>
         <div className=''>
