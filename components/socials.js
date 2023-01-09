@@ -5,15 +5,15 @@ import Link from "next/link";
 const Socials = () => {
 
     return (
-        <div className='text-simbiosis-gray text-lg rows-span-2 relative mt-24 '>
-            <div className="mx-auto px-24 flex items-center justify-around ">
-                <div className='flex gap-5'>
-                    <Link href=""> <img className="h-4" src={"https://drive.google.com/uc?export=view&id=1ErlgoUha1ic8aUaQPbAarzZxZZmR6RVX"}/></Link>
-                    <Link href="" > <img className="h-4" src={"https://drive.google.com/uc?export=view&id=1zdstv4Z9K6UI1l1If7_QWO6Imw7dgh1Y"}/></Link>
-                    <Link href=""><img className="h-4" src={"https://drive.google.com/uc?export=view&id=1nzZaXzutznFSO6ch7bZNM3Ga4pZG7-PT"}/></Link>
+        <div className=''>
+            <div className=" mx-auto flex items-center md:justify-around">
+                <div className='flex pl-8 gap-5'>
+                    <Link href="https://www.instagram.com/simbiosis_estudiomx/"><img className="h-4" src={"https://drive.google.com/uc?export=view&id=1QOn1UXlU4IawlC20Jw5bC8vablbn90xc"} /></Link>
+                    <Link href="mailto:info@simbiosis-estudio.com" > <img className="h-4" src={"https://drive.google.com/uc?export=view&id=16Zx711dwX4vGdus0DEYQELvP5ZBwhDtJ"} /></Link>
+                    <Link href=""> <img className="h-4" src={"https://drive.google.com/uc?export=view&id=1EfOanJsIFQjaTEmzyjIt5UOd-Z6zLte_"} /></Link>
                 </div>
-                <div className="flex items-center gap-5 ">
-                </div>
+                <div className="flex items-center gap-5 ">        
+                    </div>
             </div>
         </div>
     )
