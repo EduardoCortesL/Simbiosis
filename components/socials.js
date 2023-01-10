@@ -9,8 +9,8 @@ let instagram = "/instagram.png";
 const Socials = () => {
 
     return (
-        <div className='flex-col sm:mt-40 mt-24'>
-            <div className=" flex items-center justify-center">
+        <div className=''>
+            <div className=" flex items-center justify-center ">
                 <div className='flex gap-5'>
                     <Link href="https://www.instagram.com/simbiosis_estudiomx/"><img className="h-4" src={instagram} /></Link>
                     <Link href="mailto:info@simbiosis-estudio.com" > <img className="h-4" src={email} /></Link>
@@ -31,5 +31,5 @@ flex justify-center items-center gap-5
 */
 
 /*
-
+md:mt-40 mt-24
 */

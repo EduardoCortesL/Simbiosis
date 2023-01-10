@@ -5,7 +5,7 @@ import Meta from '../components/head';
 
 const Home = () => {
   return (
-    <div className=''>
+    <div className='flex flex-col h-screen'>
       <Meta></Meta>
 
       <NavBar />
@@ -14,9 +14,9 @@ const Home = () => {
         < Gallery />
       </div>
 
-      <div className=''>
+      <footer className='sticky top-[100vh] mb-8'>
         < Socials />
-      </div>
+      </footer>
     </div>
   )
 }
