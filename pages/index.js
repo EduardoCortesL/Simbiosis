@@ -14,7 +14,7 @@ const Home = () => {
         < Gallery />
       </div>
 
-      <footer className='sticky top-[100vh] mb-8'>
+      <footer className=''>
         < Socials />
       </footer>
     </div>
