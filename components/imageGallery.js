@@ -2,9 +2,9 @@ import { useState, useEffect, use } from "react";
 
 
 
-let one = "https://drive.google.com/uc?export=view&id=1wIGVE9l_zfutv50iW25EbEL4N_uVBBO3";
-let two = 'https://drive.google.com/uc?export=view&id=1WjmfmgcQ6SibYUFy8n4ma6WvWX2xeRF-';
-let tree = "https://drive.google.com/uc?export=view&id=1mlRpgS182UFnh548r8iWOaPoM5dUONfQ";
+let one = "/01_Real-del-mar.png";
+let two = '/02_Casa-soler.png';
+let tree = "/03_Ampliacion-playas.png";
 
 
 const images = [one, two, tree];

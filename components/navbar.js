@@ -2,15 +2,17 @@ import Link from "next/link";
 import { useState, useEffect } from "react"
 import {AiOutlineMenu} from 'react-icons/ai'
 
+let logo_letras = "/simbiosis-logo.png";
+
 
 const NavBar = () => {
 
 
     return (
         <div className="" >
-            <div className=" mx-auto flex items-center md:justify-around ">
+            <div className=" flex items-center justify-center">
                 <Link className="relative hover:text-black transition-colors cursor-pointer" href="/">
-                    <img className="h-24" src={"https://drive.google.com/uc?export=view&id=1tuupmtxsqeWK-IgVIBHJYYlXKeN0vTgy"}></img>
+                    <img className="h-24" src={logo_letras} ></img>
                 </Link>
                 <div className="flex items-center gap-5 ">        
                     </div>
