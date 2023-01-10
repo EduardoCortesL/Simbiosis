@@ -9,12 +9,12 @@ let instagram = "/instagram.png";
 const Socials = () => {
 
     return (
-        <div className=''>
+        <div className='flex-col md:mt-40 mt-56'>
             <div className=" flex items-center justify-center">
                 <div className='flex gap-5'>
-                    <Link href="https://www.instagram.com/simbiosis_estudiomx/"><img className="h-4" src={"https://drive.google.com/uc?export=view&id=1QOn1UXlU4IawlC20Jw5bC8vablbn90xc"} /></Link>
-                    <Link href="mailto:info@simbiosis-estudio.com" > <img className="h-4" src={"https://drive.google.com/uc?export=view&id=16Zx711dwX4vGdus0DEYQELvP5ZBwhDtJ"} /></Link>
-                    <Link href=""> <img className="h-4" src={"https://drive.google.com/uc?export=view&id=1EfOanJsIFQjaTEmzyjIt5UOd-Z6zLte_"} /></Link>
+                    <Link href="https://www.instagram.com/simbiosis_estudiomx/"><img className="h-4" src={instagram} /></Link>
+                    <Link href="mailto:info@simbiosis-estudio.com" > <img className="h-4" src={email} /></Link>
+                    <Link href=""> <img className="h-4" src={calendario} /></Link>
                 </div>
                 <div className="flex items-center gap-5 ">
                 </div>

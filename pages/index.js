@@ -1,10 +1,12 @@
 import Gallery from '../components/imageGallery'
 import NavBar from '../components/navbar'
 import Socials from '../components/socials';
+import Meta from '../components/head';
 
 const Home = () => {
   return (
     <div className=''>
+      <Meta></Meta>
 
       <NavBar />
 
