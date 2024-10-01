@@ -13,7 +13,7 @@ const Meta = ({title, keywords, description, ogTitle, ogType, ogUrl, ogImage}) =
            <meta property="og:url" content={ogUrl} />
            <meta property="og:image" content={ogImage} />
            <meta charSet="utf-8"></meta>
-           <link rel="icon" href="/Logo.png"></link>
+           <link rel="icon" href="/Logo_grande.png"></link>
            <title>{title}</title>
        </Head>
      );
