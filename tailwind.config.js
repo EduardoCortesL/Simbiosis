@@ -13,7 +13,8 @@ module.exports = {
         'simbiosis-gray': "#999"
       },
       fontFamily : {
-        "Roboto" : ["Roboto", ...defaultTheme.fontFamily.sans],
+        "roboto" : ["Roboto", ...defaultTheme.fontFamily.sans],
+        "poppins": ['Poppins', 'sans-serif'],
       }
     },
   },

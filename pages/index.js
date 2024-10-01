@@ -2,20 +2,19 @@ import Gallery from '../components/imageGallery'
 import NavBar from '../components/navbar'
 import Socials from '../components/socials';
 import Meta from '../components/head';
+import Landing from '../components/landing';
 
 const Home = () => {
   return (
     <div className='flex flex-col h-screen'>
       <Meta></Meta>
-
-      <NavBar />
-
-      <div className='flex justify-center items-center  mt-8  md:-mt-24'>
-        < Gallery />
+      
+      <div className='flex justify-center items-center  mt-4  md:-mt-40'>
+        <Landing />
       </div>
 
-      <footer className=''>
-        < Socials />
+      <footer className='flex justify-center items-center h-24'>
+      < Socials />
       </footer>
     </div>
   )

@@ -7,24 +7,18 @@ let instagram = "/instagram.png";
 
 
 const Socials = () => {
-
     return (
-        <div className='md:mt-40 mt-24'>
-            <div className=" flex items-center justify-center ">
-                <div className='flex gap-5'>
-                    <Link href="https://www.instagram.com/simbiosis_estudiomx/"><img className="h-4" src={instagram} /></Link>
-                    <Link href="mailto:info@simbiosis-estudio.com" > <img className="h-4" src={email} /></Link>
-                    <Link href="https://calendly.com/simbiosisestudio/30min"> <img className="h-4" src={calendario} /></Link>
-                </div>
-                <div className="flex items-center gap-5 ">
-                </div>
+        <div className='flex flex-col md:flex-row justify-center items-center h-full md:mb-8'>
+            <div className='flex flex-col md:flex-row gap-5 text-center text-white font-poppins'>
+                <Link href="https://www.instagram.com/simbiosis_estudiomx/">simbiosis_estudiomx</Link>
+                <Link href="mailto:info@simbiosis-estudio.com">info@simbiosis-estudio.com</Link>
             </div>
         </div>
-    )
-
+    );
 }
 
 export default Socials;
+
 
 /*
 flex justify-center items-center gap-5
