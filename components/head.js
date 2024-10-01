@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-let s_logo = "./Logo_grande.png"
+let s_logo = "./Logo_Grande.png"
 
 const Meta = ({title, keywords, description, ogTitle, ogType, ogUrl, ogImage}) => {
     return ( 
@@ -13,7 +13,7 @@ const Meta = ({title, keywords, description, ogTitle, ogType, ogUrl, ogImage}) =
            <meta property="og:url" content={ogUrl} />
            <meta property="og:image" content={ogImage} />
            <meta charSet="utf-8"></meta>
-           <link rel="icon" href="/Logo_grande.png"></link>
+           <link rel="icon" href="/Logo_Grande.png"></link>
            <title>{title}</title>
        </Head>
      );
