@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-let s_logo = "/Logo.png"
+let s_logo = "/Simbiosis_Logo.png"
 
 const Meta = ({title, keywords, description, ogTitle, ogType, ogUrl, ogImage}) => {
     return ( 
