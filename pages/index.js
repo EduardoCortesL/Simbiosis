@@ -13,8 +13,8 @@ const Home = () => {
         <Landing />
       </div>
 
-      <footer className='flex justify-center items-center h-24'>
-      < Socials />
+      <footer className=''>
+        < Socials />
       </footer>
     </div>
   )
