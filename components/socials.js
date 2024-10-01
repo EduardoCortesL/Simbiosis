@@ -8,9 +8,9 @@ import Link from "next/link";
 
 const Socials = () => {
     return (
-        <div className='flex flex-col justify-center items-center md:mb-8'>
-            <div className='flex flex-col gap-2 text-center text-white font-poppins text-xs md:text-sm'>
-                <Link href="https://www.instagram.com/simbiosis_estudiomx/">@simbiosis_estudiomx</Link>
+        <div className='flex justify-center items-center md:mb-8'>
+            <div className='flex flex-col md:flex-row gap-2 text-center text-white font-poppins text-xs md:text-sm'>
+                <Link href="https://www.instagram.com/simbiosis_estudiomx/">simbiosis_estudiomx</Link>
                 <Link href="mailto:info@simbiosis-estudio.com">info@simbiosis-estudio.com</Link>
             </div>
         </div>
@@ -18,6 +18,7 @@ const Socials = () => {
 }
 
 export default Socials;
+
 
 
 
